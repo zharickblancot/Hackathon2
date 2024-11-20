@@ -1,8 +1,9 @@
+// scripts.js
 document.addEventListener('DOMContentLoaded', () => {
     const frequencyButtons = document.querySelectorAll('.frequency-select button');
     const amountButtons = document.querySelectorAll('.amount-buttons button');
     const customAmountInput = document.getElementById('custom-amount');
-    const currencySelect = document.querySelector('.currency-select');
+    const currencySelect = document.querySelector('.currency-select select');
     const nextButton = document.querySelector('.next-btn');
     const commentCheckbox = document.getElementById('comments');
 
